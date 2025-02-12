@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8d1d1; /* Peach-pink background */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.first-content {
+    position: relative;
+    margin-top: 50px;
+}
+
+.first-gif {
+    max-width: 100%;
+    height: auto;
+}
+
+.question-container {
+    margin-top: 20px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #ff69b4; /* Pink button */
+    color: white;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff1493; /* Darker pink on hover */
+}
+
+.second-content {
+    display: none;
+    margin-top: 30px;
+}
+
+.second-gif {
+    max-width: 100%;
+    height: auto;
+}
+
+.message {
+    font-size: 24px;
+    color: #ff1493;
+    margin-top: 20px;
+}
